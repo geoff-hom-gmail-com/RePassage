@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF16D2B426290F58007250EA /* RePassageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16D2B326290F58007250EA /* RePassageUITests.swift */; };
+		EF16D2CE262912A6007250EA /* RePassageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16D2CD262912A6007250EA /* RePassageApp.swift */; };
+		EF16D2CF262912A6007250EA /* RePassageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16D2CD262912A6007250EA /* RePassageApp.swift */; };
+		EF16D2D0262912A6007250EA /* RePassageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16D2CD262912A6007250EA /* RePassageApp.swift */; };
+		EF16D2D1262912A6007250EA /* RePassageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16D2CD262912A6007250EA /* RePassageApp.swift */; };
+		EF16D2F026291327007250EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16D2EF26291327007250EA /* ContentView.swift */; };
+		EF16D2F126291327007250EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16D2EF26291327007250EA /* ContentView.swift */; };
+		EF16D2F226291327007250EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16D2EF26291327007250EA /* ContentView.swift */; };
+		EF16D2F326291327007250EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16D2EF26291327007250EA /* ContentView.swift */; };
 		EF7C9EA72620A5F500AF8D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C9EA62620A5F500AF8D4A /* AppDelegate.swift */; };
 		EF7C9EA92620A5F500AF8D4A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C9EA82620A5F500AF8D4A /* GameViewController.swift */; };
 		EF7C9EAC2620A5F500AF8D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7C9EAA2620A5F500AF8D4A /* Main.storyboard */; };
@@ -41,6 +50,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		EF16D2B626290F58007250EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7C9E962620A5EF00AF8D4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7C9EDE2620A5F600AF8D4A;
+			remoteInfo = "RePassage macOS";
+		};
 		EF7C9EB52620A5F500AF8D4A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EF7C9E962620A5EF00AF8D4A /* Project object */;
@@ -83,6 +99,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EF16D2B126290F57007250EA /* RePassageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RePassageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF16D2B326290F58007250EA /* RePassageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RePassageUITests.swift; sourceTree = "<group>"; };
+		EF16D2B526290F58007250EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF16D2CD262912A6007250EA /* RePassageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RePassageApp.swift; sourceTree = "<group>"; };
+		EF16D2EF26291327007250EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF7C9E9B2620A5F000AF8D4A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		EF7C9E9C2620A5F000AF8D4A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		EF7C9E9D2620A5F000AF8D4A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -115,6 +136,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EF16D2AE26290F57007250EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF7C9EA02620A5F500AF8D4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,6 +174,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF16D2B226290F57007250EA /* RePassageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF16D2B326290F58007250EA /* RePassageUITests.swift */,
+				EF16D2B526290F58007250EA /* Info.plist */,
+			);
+			path = RePassageUITests;
+			sourceTree = "<group>";
+		};
 		EF7C9E952620A5EF00AF8D4A = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +192,7 @@
 				EF7C9EC42620A5F600AF8D4A /* RePassage watchOS App Extension */,
 				EF7C9ECF2620A5F600AF8D4A /* RePassage tvOS */,
 				EF7C9EE02620A5F600AF8D4A /* RePassage macOS */,
+				EF16D2B226290F57007250EA /* RePassageUITests */,
 				EF7C9EA42620A5F500AF8D4A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -166,6 +204,8 @@
 				EF7C9E9C2620A5F000AF8D4A /* GameScene.sks */,
 				EF7C9E9D2620A5F000AF8D4A /* GameScene.swift */,
 				EF7C9E9E2620A5F500AF8D4A /* Assets.xcassets */,
+				EF16D2CD262912A6007250EA /* RePassageApp.swift */,
+				EF16D2EF26291327007250EA /* ContentView.swift */,
 			);
 			path = "RePassage Shared";
 			sourceTree = "<group>";
@@ -178,6 +218,7 @@
 				EF7C9EC02620A5F600AF8D4A /* RePassage Extension.appex */,
 				EF7C9ECE2620A5F600AF8D4A /* RePassage.app */,
 				EF7C9EDF2620A5F600AF8D4A /* RePassage.app */,
+				EF16D2B126290F57007250EA /* RePassageUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,6 +281,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EF16D2B026290F57007250EA /* RePassageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF16D2BA26290F58007250EA /* Build configuration list for PBXNativeTarget "RePassageUITests" */;
+			buildPhases = (
+				EF16D2AD26290F57007250EA /* Sources */,
+				EF16D2AE26290F57007250EA /* Frameworks */,
+				EF16D2AF26290F57007250EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF16D2B726290F58007250EA /* PBXTargetDependency */,
+			);
+			name = RePassageUITests;
+			productName = RePassageUITests;
+			productReference = EF16D2B126290F57007250EA /* RePassageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		EF7C9EA22620A5F500AF8D4A /* RePassage iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF7C9F032620A5F600AF8D4A /* Build configuration list for PBXNativeTarget "RePassage iOS" */;
@@ -336,11 +395,16 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					EF16D2B026290F57007250EA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EF7C9EDE2620A5F600AF8D4A;
+					};
 					EF7C9EA22620A5F500AF8D4A = {
 						CreatedOnToolsVersion = 12.4;
 					};
 					EF7C9EB22620A5F500AF8D4A = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					EF7C9EBF2620A5F600AF8D4A = {
 						CreatedOnToolsVersion = 12.4;
@@ -371,11 +435,19 @@
 				EF7C9EBF2620A5F600AF8D4A /* RePassage watchOS App Extension */,
 				EF7C9ECD2620A5F600AF8D4A /* RePassage tvOS */,
 				EF7C9EDE2620A5F600AF8D4A /* RePassage macOS */,
+				EF16D2B026290F57007250EA /* RePassageUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EF16D2AF26290F57007250EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF7C9EA12620A5F500AF8D4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,12 +503,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EF16D2AD26290F57007250EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF16D2B426290F58007250EA /* RePassageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF7C9E9F2620A5F500AF8D4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EF7C9EF12620A5F600AF8D4A /* GameScene.swift in Sources */,
+				EF16D2F026291327007250EA /* ContentView.swift in Sources */,
 				EF7C9EA92620A5F500AF8D4A /* GameViewController.swift in Sources */,
+				EF16D2CE262912A6007250EA /* RePassageApp.swift in Sources */,
 				EF7C9EA72620A5F500AF8D4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +528,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF7C9EF22620A5F600AF8D4A /* GameScene.swift in Sources */,
+				EF16D2F126291327007250EA /* ContentView.swift in Sources */,
 				EF7C9EC82620A5F600AF8D4A /* ExtensionDelegate.swift in Sources */,
+				EF16D2CF262912A6007250EA /* RePassageApp.swift in Sources */,
 				EF7C9EC62620A5F600AF8D4A /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,7 +540,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF7C9EF32620A5F600AF8D4A /* GameScene.swift in Sources */,
+				EF16D2F226291327007250EA /* ContentView.swift in Sources */,
 				EF7C9ED32620A5F600AF8D4A /* GameViewController.swift in Sources */,
+				EF16D2D0262912A6007250EA /* RePassageApp.swift in Sources */,
 				EF7C9ED12620A5F600AF8D4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,7 +552,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF7C9EF42620A5F600AF8D4A /* GameScene.swift in Sources */,
+				EF16D2F326291327007250EA /* ContentView.swift in Sources */,
 				EF7C9EE42620A5F600AF8D4A /* GameViewController.swift in Sources */,
+				EF16D2D1262912A6007250EA /* RePassageApp.swift in Sources */,
 				EF7C9EE22620A5F600AF8D4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +562,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		EF16D2B726290F58007250EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7C9EDE2620A5F600AF8D4A /* RePassage macOS */;
+			targetProxy = EF16D2B626290F58007250EA /* PBXContainerItemProxy */;
+		};
 		EF7C9EB62620A5F500AF8D4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EF7C9EB22620A5F500AF8D4A /* RePassage watchOS App */;
@@ -538,6 +631,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EF16D2B826290F58007250EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5A92XSL5CB;
+				INFOPLIST_FILE = RePassageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geoff-hom.RePassageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "RePassage macOS";
+			};
+			name = Debug;
+		};
+		EF16D2B926290F58007250EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5A92XSL5CB;
+				INFOPLIST_FILE = RePassageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geoff-hom.RePassageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "RePassage macOS";
+			};
+			name = Release;
+		};
 		EF7C9EF92620A5F600AF8D4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -698,14 +833,22 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5A92XSL5CB;
 				IBSC_MODULE = RePassage_Extension;
 				INFOPLIST_FILE = "RePassage watchOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geoff-hom.RePassage.watchkitapp";
 				PRODUCT_NAME = RePassage;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RePassage Shared/RePassage watchOS App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 7.2;
@@ -718,14 +861,21 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5A92XSL5CB;
 				IBSC_MODULE = RePassage_Extension;
 				INFOPLIST_FILE = "RePassage watchOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geoff-hom.RePassage.watchkitapp";
 				PRODUCT_NAME = RePassage;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RePassage Shared/RePassage watchOS App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
@@ -868,6 +1018,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EF16D2BA26290F58007250EA /* Build configuration list for PBXNativeTarget "RePassageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF16D2B826290F58007250EA /* Debug */,
+				EF16D2B926290F58007250EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EF7C9E992620A5EF00AF8D4A /* Build configuration list for PBXProject "RePassage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
