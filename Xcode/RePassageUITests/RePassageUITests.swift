@@ -7,6 +7,10 @@
 
 import XCTest
 
+public enum Texts: String {
+    case helloWorld = "Hello, world!"
+}
+
 class RePassageUITests: XCTestCase {
 
     override func setUpWithError() throws {
@@ -30,13 +34,12 @@ class RePassageUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-    
+
     func testHelloWorldText() throws {
         let app = XCUIApplication()
         app.launch()
-        // note/TODO: best practice is to use enums instead of strings? (see google/notes)
         // TODO: consider moving app launch to setup? except testLaunchPerformance doesn't use that? look up the measure() function and XCTApplicationLaunchMetric()
-        XCTAssertTrue(app.staticTexts["Hello, world!"].exists)
+        XCTAssertTrue(app.staticTexts[Texts.helloWorld.rawValue].exists)
     }
 
     func testLaunchPerformance() throws {
