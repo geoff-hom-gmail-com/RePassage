@@ -1,0 +1,4 @@
+# from Airbnb and Google Swift style guides
+line_length: 
+  warning: 100
+  error: 100

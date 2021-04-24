@@ -286,6 +286,7 @@
 			buildConfigurationList = EF16D2BA26290F58007250EA /* Build configuration list for PBXNativeTarget "RePassageUITests" */;
 			buildPhases = (
 				EF16D2AD26290F57007250EA /* Sources */,
+				EFDB20072633B75000A474CE /* ShellScript */,
 				EF16D2AE26290F57007250EA /* Frameworks */,
 				EF16D2AF26290F57007250EA /* Resources */,
 			);
@@ -374,6 +375,7 @@
 			buildConfigurationList = EF7C9F092620A5F600AF8D4A /* Build configuration list for PBXNativeTarget "RePassage macOS" */;
 			buildPhases = (
 				EF7C9EDB2620A5F600AF8D4A /* Sources */,
+				EFDB201B2633BC5E00A474CE /* ShellScript */,
 				EF7C9EDC2620A5F600AF8D4A /* Frameworks */,
 				EF7C9EDD2620A5F600AF8D4A /* Resources */,
 			);
@@ -501,6 +503,43 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EFDB20072633B75000A474CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint2 not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		EFDB201B2633BC5E00A474CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF16D2AD26290F57007250EA /* Sources */ = {
