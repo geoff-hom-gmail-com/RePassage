@@ -5,19 +5,18 @@
 //  Created by Geoff Hom on 4/9/21.
 //
 
-import UIKit
-import SpriteKit
 import GameplayKit
+import SpriteKit
+import UIKit
 
 class GameViewController: UIViewController {
-  
   override func viewDidLoad() {
     super.viewDidLoad()
 
     let scene = GameScene.newGameScene()
-    
+
     // Present the scene
-    let skView = self.view as! SKView
+    let skView = view as! SKView
     skView.presentScene(scene)
 
     skView.ignoresSiblingOrder = true
@@ -25,5 +24,4 @@ class GameViewController: UIViewController {
     skView.showsFPS = true
     skView.showsNodeCount = true
   }
-
 }

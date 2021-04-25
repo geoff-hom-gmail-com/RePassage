@@ -47,6 +47,8 @@
 		EF7C9EF62620A5F600AF8D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7C9E9E2620A5F500AF8D4A /* Assets.xcassets */; };
 		EF7C9EF72620A5F600AF8D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7C9E9E2620A5F500AF8D4A /* Assets.xcassets */; };
 		EF7C9EF82620A5F600AF8D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7C9E9E2620A5F500AF8D4A /* Assets.xcassets */; };
+		EFDB2029263493F000A474CE /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = EFDB2028263493F000A474CE /* .swiftlint.yml */; };
+		EFDB2031263518EC00A474CE /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = EFDB2030263518EC00A474CE /* .swiftformat */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +135,8 @@
 		EF7C9EE62620A5F600AF8D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF7C9EE82620A5F600AF8D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF7C9EE92620A5F600AF8D4A /* RePassage_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RePassage_macOS.entitlements; sourceTree = "<group>"; };
+		EFDB2028263493F000A474CE /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		EFDB2030263518EC00A474CE /* .swiftformat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +190,8 @@
 		EF7C9E952620A5EF00AF8D4A = {
 			isa = PBXGroup;
 			children = (
+				EFDB2030263518EC00A474CE /* .swiftformat */,
+				EFDB2028263493F000A474CE /* .swiftlint.yml */,
 				EF7C9E9A2620A5F000AF8D4A /* RePassage Shared */,
 				EF7C9EA52620A5F500AF8D4A /* RePassage iOS */,
 				EF7C9EB72620A5F500AF8D4A /* RePassage watchOS App */,
@@ -454,7 +460,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDB2029263493F000A474CE /* .swiftlint.yml in Resources */,
 				EF7C9EED2620A5F600AF8D4A /* GameScene.sks in Resources */,
+				EFDB2031263518EC00A474CE /* .swiftformat in Resources */,
 				EF7C9EAC2620A5F500AF8D4A /* Main.storyboard in Resources */,
 				EF7C9EEA2620A5F600AF8D4A /* Actions.sks in Resources */,
 				EF7C9EAF2620A5F500AF8D4A /* LaunchScreen.storyboard in Resources */,
