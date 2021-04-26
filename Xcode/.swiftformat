@@ -1,2 +1,3 @@
 # from Airbnb and Google Swift style guides
+--closingparen same-line
 --indent 2
