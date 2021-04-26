@@ -2,3 +2,9 @@
 line_length: 
   warning: 100
   error: 100
+
+# from Airbnb Swift style guides
+opening_brace:
+  allow_multiline_func: true
+
+disabled_rules:
